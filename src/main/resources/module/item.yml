@@ -1,0 +1,55 @@
+durability:
+  enable: true
+  key: "Durabilité: "
+  seperator: "/"
+
+item:
+  enable: true
+
+
+
+
+  custom:
+    TURFU_CHESTPLATE:
+      rgb: 20, 10, 5
+      material: LEATHER_CHESTPLATE
+      lore: ["Niveau: 6", "zdlùmezalùmld"]
+      ignoreLineLore: ["1"]
+
+      attribut
+
+
+
+
+  lock:
+    GOLDEN_SWORD:
+      lootable: false
+    ROTTEN_FLES:
+      getable: false
+      lootable: false
+
+recipe:
+  enable: true
+  add:
+    KLAKLA:
+      format: craft
+      result: GOLD_INGOT
+      shape:
+        - " k "
+        - " k "
+        - " k "
+      ingredient:
+        "k": KAKA
+  remove:
+    STONE:
+      furnace: [1]
+
+chat:
+  unknown:
+    target: "&cLe joueur n'existe pas."
+    item: "&cL'item inséré est introuvable."
+  invalidAmount: "&cLe montant inséré est invalide."
+  give:
+    sender: "&eVous avez donné &6x%amount% %item%&e. à %player%"
+    target: "&eVous avez reçu &6x%amount% %item%&e."
+  help: "&6/aitem <player> <item> [amount]"

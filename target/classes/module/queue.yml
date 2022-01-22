@@ -1,0 +1,41 @@
+server:
+  lobby:
+    name: "Lobby"
+    commands: ["lobby", "hub"]
+    platform: ALL
+
+
+chat:
+  already: "&6&lFile &f&l» &eVous êtes déjà connecté sur le serveur."
+  platform: "&6&lFile &f&l» &eVous ne pouvez pas accéder à ce serveur."
+  uknownServer: "&6&lFile &f&l» &eLa file indiqué est inconnue."
+  help: |-
+    &7
+    &6/queue on <server> &e: Vérouille la file d'attente
+    &6/queue off <server> &e: Dévérouille la file d'attente
+    &7
+
+  join:
+    message: "&6&lFile &f&l» &eVous avez rejoint la file du serveur &6%server%&e."
+    title: "&f&l» &6&lRejoint"
+    subtitle: "&e%server%"
+  leave:
+    message: "&6&lFile &f&l» &eVous avez quitté la file du serveur &6%server%&e."
+    title: "&f&l» &6&lQuitté"
+    subtitle: "&e%server%"
+  disable:
+    message: "&6&lFile &f&l» &eVous avez désactivé la file du &6%server%&e."
+    broadcast: "&6&lFile &f&l» &eLa file du &6%server% &ea été désactivé."
+    actionbar: "&6&l%server% &f&l» &e%position%&6/%size% &c(Désactivé)"
+
+    already: "&6&lFile &f&l» &eCette file est déjà désactivé."
+  enable:
+    message: "&6&lFile &f&l» &eVous avez activé la file du &6%server%&e."
+    broadcast: "&6&lFile &f&l» &eLa file du &6%server% &e a été activé."
+    actionbar: "&6&l%server% &f&l» &e%position%&6/%size%"
+
+    already: "&6&lFile &f&l» &eCette file est déjà activé."
+  connect:
+    message: "&6&lFile &f&l» &eConnexion en cours pour le serveur &6%server%&e."
+    title: "&f&l» &6&lConnexion"
+    subtitle: "&e%server%"

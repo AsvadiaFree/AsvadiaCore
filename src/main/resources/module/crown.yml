@@ -1,0 +1,35 @@
+chat:
+  noAccount: "&6&lCouronne &f&l» &eAucun compte n''a été trouvé."
+  noCrown: "&6&lCouronne &f&l» &eVous n'avez pas assez de couronnes."
+  noOneself: "&6&lCouronne &f&l» &eVous ne pouvez pas faire ça à vous même."
+  error: "&6&lCouronne &f&l» &eUne erreur est survenue."
+  help: |-
+    &7
+    &6/crown show <player> &e: Montre les couronnes du joueur indiqué
+    &6/crown (set-add-remove) <player> <amount> &e: Modifie le montant du joueur
+    &6/crown (transfer-pay-send) <player> <amount> &e: Paye un joueur
+    &7
+
+
+  show:
+    sender: "&6&lCouronne &f&l» &eVous possédez &6%amount% couronnes"
+    target: "&6&lCouronne &f&l» &eLe joueur %target% possède &6%amount% couronnes"
+  remove:
+    sender: "&6&lCouronne &f&l» &eVous avez retiré &6%amount% couronnes &eau joueur &6%target%&e."
+    target: "&6&lCouronne &f&l» &eVous avez été retiré de &6%amount% couronnes&e."
+  add:
+    sender: "&6&lCouronne &f&l» &eVous avez ajouté &6%amount% couronnes &eau joueur &6%target%&e."
+    target: "&6&lCouronne &f&l» &eVous avez reçu &6%amount% couronnes&e."
+  set:
+    sender: "&6&lCouronne &f&l» &eVous avez mis &6%amount% couronnes &eau joueur &6%target%&e."
+    target: "&6&lCouronne &f&l» &eVous avez maintenant &6%amount% couronnes&e."
+  transfer:
+    sender: "&6&lCouronne &f&l» &eVous avez avez envoyé &6%amount% couronnes&e à %target%."
+    target: "&6&lCouronne &f&l» &eVous avez avez reçu &6%amount% couronnes&e de %sender%."
+  earn:
+    title: "&6&lCrédit..."
+    subtitle: "&6&l⇧ &a%amount% &6&l⇧"
+  lost:
+    title: "&6&lRetrait..."
+    subtitle: "&6&l⇩ &c%amount% &6&l⇩"
+

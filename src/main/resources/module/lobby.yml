@@ -1,0 +1,64 @@
+itemjoin:
+  enable: true
+  slot: 8
+  item:
+    material: COMPASS
+    displayName: "Téléporteur"
+    lore:
+      - "Vous téléporte sur les différents serveurs."
+  executeCommand:
+    bedrock: "menuJava"
+    java: "menuBedrock"
+
+spawn:
+  cooldown: 5
+  world: world
+  x: -30.0
+  y: 80.0
+  z: -60.0
+
+
+arena:
+  enable: false
+  area:
+    world: world
+    A:
+      x: 20.0
+      y: 60.0
+      z: 50.0
+    B:
+      x: -20.0
+      y: 120.0
+      z: -50.0
+  level:
+    0:
+      helmet:
+        material: IRON_HELMET
+      chestplate:
+        material: IRON_CHESTPLATE
+      leggings:
+        material: IRON_LEGGINGS
+      boots:
+        material: IRON_BOOTS
+      0:
+        material: IRON_SWORD
+
+chat:
+  spawn:
+    start: "&eLa téléportation commencera dans 5 secondes."
+    cancel: "&eLa téléportation a été annulé."
+    teleported: "&eVous avez été téléporté au spawn."
+  arena:
+    enter:
+      message: "&eVous êtes entrez dans l'arène."
+      title: "&6Arène"
+      subtitle: "&ezone de pvp"
+    leave:
+      message: "&eVous êtes sortie de l'arène."
+    levelUp:
+      message: "&eVotre équipement a été amélioré."
+      title: "&6Amélioration"
+      subtitle: "&e+1 niveau"
+    death:
+      broadcastKiller: "&f&l» &6%victim% &ea été tué par &c%killer%"
+      broadcast: "&f&l» &6%victim% &ea été tué."

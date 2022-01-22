@@ -1,0 +1,20 @@
+sql:
+  server:
+    host: localhost
+    port: 3306
+    user: phpmyadmin
+    password: "1234"
+    dataBase: server_core
+  web:
+    host: localhost
+    port: 3306
+    user: phpmyadmin
+    password: "1234"
+    dataBase: web_core
+
+chat:
+  noPlayer: "&cVous n'êtes pas un joueur"
+  permission: "&cVous n'avez pas accès à cette commande."
+
+module: [crown, vote]
+

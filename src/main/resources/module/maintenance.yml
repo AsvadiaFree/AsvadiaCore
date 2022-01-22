@@ -1,0 +1,22 @@
+platform:
+  faction: JAVA
+  minage: BEDROCK
+chat:
+  unknownServer: '&eLe server indiqué est inconnu.'
+  kick:
+    maintenance: '&eLe serveur %server% est actuellement en maintenance.'
+    platform: '&eVous ne pouvez pas accéder à ce serveur.'
+  enable: '&eVous avez activé la maintenance pour le serveur %server%.'
+  disable: '&eVous avez désactivé la maintenance pour le serveur %server%.'
+  whitelist:
+    list: '&eList des joueurs whitelist: %list%'
+    add: '&eVous avez ajouté %player% à la maintenance.'
+    remove: '&eVous avez retiré %player% de la maintenance.'
+    already: '&eCe joueur est déjà ajouté.'
+    unknown: Ce joueur n'est pas whitelist.
+  help: |-
+    &7
+    &6/maintenance <on-off> [server] &e: Active ou désactive la maintenance
+    &6/maintenance list &e: Affiche les joueurs ajoutés
+    &6/maintenance <add-remove> <pseudo> &e: Gère la whitelist
+    &7

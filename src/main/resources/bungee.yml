@@ -1,0 +1,6 @@
+name: AsvadiaCore
+author: AziRixX
+version: '0.2'
+depends: [AsvadiaAPI]
+main: fr.asvadia.core.bungee.AsvadiaCore
+

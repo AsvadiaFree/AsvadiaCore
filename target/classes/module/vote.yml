@@ -1,0 +1,43 @@
+chat:
+  join: |-
+    &aVous avez %amount% votes en attentes pour les récupérezwv
+    &aFaites /vote
+  reward:
+    sender: "&6&lVote &f&l» &eVous avez récupéré &6%amount% votes&e."
+    broadcast: "&6%player% &ea récupéré &6%amount% votes"
+  noVote: "&6&lVote &f&l» &cVous n'avez aucun vote en attente."
+  party:
+    show: "&6&lVote &f&l» &eMontant de la party: &6%amount%/%max%"
+    set: "&6&lVote &f&l» &eLa party est maintenant à &6%amount%&e."
+
+    start:
+      broadcast: "&6&lVote &f&l» &eLa party a été effectué !"
+      title: "&c&kX&r  &6&lVote Party  &c&kX"
+      subtitle: "&eMerci"
+    help: |-
+      &7
+      &6/avote party start <amount> &e: Effectue la partie.
+      &6/avote party set <amount> &e: Met le montant de la partie
+      &6/avote party add &e: Met le montant de la partie
+      &6/avote party &e: Affiche le montant de la partie.
+      &7
+
+#keke
+command:
+  reward: "crates give physical vote 1 %player%"
+  party: "crates give physical rare 1 %player%"
+
+party:
+  max: 300
+  minPlayer: 30
+
+site:
+  rpg-paradize:
+    id: 1
+    delay: 180
+  server-privé:
+    id: 2
+    delay: 180
+  minecraft-server:
+    id: 3
+    delay: 180

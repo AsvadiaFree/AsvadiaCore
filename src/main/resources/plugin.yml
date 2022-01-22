@@ -1,0 +1,47 @@
+name: AsvadiaCore
+author: AziRixX
+version: '0.2'
+depend: [AsvadiaAPI]
+main: fr.asvadia.core.bukkit.AsvadiaCore
+
+permissions:
+  core.*:
+    default: false
+    children:
+      core.manage:
+        description: Manage the core, principal command
+  vote.*:
+    default: op
+    children:
+      vote.reward:
+        description: Recup your rewards
+      vote.party.*:
+        children:
+          vote.party.help:
+            description: Help of vote party
+          vote.party.edit:
+            description: Edit amount of vote party
+          vote.party.start:
+            description: Start vote party
+          vote.party.show:
+            description: Show progress of vote party
+  lobby.*:
+    default: false
+    children:
+      lobby.spawn:
+        description: Teleport to spawn of lobby module
+  crown.*:
+    default: false
+    children:
+      crown.help:
+        description: Help of crown system
+      crown.show.*:
+        children:
+          crown.show:
+            description: Show your crown
+          crown.show.other:
+            description: Show crown of other player
+      crown.transfer:
+        description: Transfer your crown to other player
+      crown.edit:
+        description: Edit crown of player
